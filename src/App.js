@@ -5,9 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="QuoteApp">
-      <header className="QuoteApp-header">
-          <Quote />
+      <header className="QuoteApp-header text-center">
+          <h1>Quote App</h1>
       </header>
+      <Quote />
     </div>
   );
 }
