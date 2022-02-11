@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Quote() {
-
-
     return (
         <div className="d-flex justify-content-center container flex-column">
             <div className="wrapper card" id="quote-box">
