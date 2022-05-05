@@ -4,17 +4,17 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const QuoteBox = ({ quote, author, setNewQuote, color }) => {
   return (
-    <div id="quote-box" className="quoteBox card" style={{backgroundColor: color}}>
-      <div className="cardBody">
-        <div className="textBox row">
-          <h1 id="text" className="cardTitle">{quote}</h1>
-          <h2 id="author" className="cardSubtitle">{author}</h2>
+    <div id="quote-box" className="quoteBox" style={{backgroundColor: color}}>
+      <div className="">
+        <div className="">
+          <h1 id="text" className="">{quote}</h1>
+          <h2 id="author" className="">- {author}</h2>
         </div>
         <div className="left">
-          <a id="tweet-quote" href=""></a>
+          <a id="tweet-quote" href="">Share</a>
         </div>
         <div className="right">
-          <button className="btn primary" onClick={() => setNewQuote()}>
+          <button className="btn" onClick={() => setNewQuote()}>
             New Quote
           </button>
         </div>

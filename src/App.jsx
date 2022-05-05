@@ -2,6 +2,7 @@ import React from "react";
 import "./app.scss";
 import QuoteBox from "./components/QuoteBox";
 import { useState } from "react";
+import Topbar from "./components/Topbar/Topbar";
 
 const App = () => {
     const colors = ["#BCECE0","#36EEE0", "#F652A0","#4C5270"];
@@ -32,12 +33,16 @@ const App = () => {
 
   return (
     <div className="app">
-      <QuoteBox
+      <Topbar/>
+      <div className="section">
+        <QuoteBox
         quote={data[newQuote].quote}
         author={data[newQuote].author}
         color={colors[color]}
         setNewQuote={generateNew}
       />
+      </div>
+      
     </div>
   );
 };

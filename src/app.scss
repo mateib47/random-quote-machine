@@ -1,7 +1,13 @@
 .app{
-    background-color: burlywood;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    .section{
+        height: calc(100vh - 70px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 70px;
+    }
 }
