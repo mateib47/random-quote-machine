@@ -1,9 +1,11 @@
 .quoteBox{
-    background-color: beige;
     max-width: 50%;
     height: 50vh;
     padding: 40px 80px;
     display: flex;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #DEEFE7;
 
     .left{
         flex:1;
