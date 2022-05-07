@@ -11,10 +11,10 @@ const QuoteBox = ({ quote, author, setNewQuote, color }) => {
           <h2 id="author" className="">- {author}</h2>
         </div>
         <div className="left">
-          <a id="tweet-quote" href="">Share</a>
+          <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">Tweet</a>
         </div>
         <div className="right">
-          <button className="btn" onClick={() => setNewQuote()}>
+          <button className="btn primary" onClick={() => setNewQuote()}>
             New Quote
           </button>
         </div>
