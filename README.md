@@ -2,7 +2,7 @@
 
 Random quote machine is a web application that generates quotes that every entrepreneur should live by. This project is part of the freeCodeCamp's Front End Libraries Certification.
 </br>
-The live page can be found at: 
+The live page can be found at: https://mateibucur.me/random-quote-machine/
 
 ### Features
 

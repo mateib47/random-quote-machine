@@ -24,11 +24,6 @@ export const colors = [
     },
     {
       quote:
-        "It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you’ll do things differently.",
-      author: "Warren Buffett",
-    },
-    {
-      quote:
         "You don't choose your passions; your passions choose you.",
       author: "Jeff Bezos",
     },
