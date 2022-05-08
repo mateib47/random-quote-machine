@@ -1,0 +1,3 @@
+- make it responsive for mobile devices
+- transition for text update
+- maybe change tweet link
